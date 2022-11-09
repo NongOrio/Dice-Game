@@ -15,8 +15,17 @@ font-family: 'IBM Plex Sans Thai', sans-serif;
   background: #5F6F94;
 }
 
+h1{
+  font-size: 30px;
+}
+
 h2{
   color: #ffffff;
+}
+
+h5{
+  color: #ffffff;
+  font-size: 10px;
 }
 
 .faa1{
@@ -73,19 +82,21 @@ button{
     letter-spacing: 1px;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 20px;
 }
 .shake{
-    /* animation: shake 0.5s infinite; */
+    animation: shake 0.1s infinite;
 }
+
 @keyframes shake{
     0%{
-        transform: rotate(8deg);
+        transform: rotate(2deg);
     }
     50%{
-        transform: rotate(-8deg);
+        transform: rotate(-2deg);
     }
     100%{
-        transform: rotate(8deg);
+        transform: rotate(2deg);
     }
 }
 
